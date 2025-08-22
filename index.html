@@ -4,8 +4,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<body>
+<body class="open-sans-normal">
+    <header class="header  secondary-bg">
+        <nav>
+            <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
+            <ul>
+                <li><a class="dark-2" href="">Portfolio</a></li>
+                <li><a class="dark-2">Blog</a></li>
+                <li><a href=""><button class="btn-primary">Hire Me</button></a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+             <div class="banner-content">
+                <h4 class="banner-greetings">Hi, I am</h4>
+                <h1 class="banner-title">Mary Hardy</h1>
+                <p class="banner-description">
+                    I am a web developer with a passion for creating beautiful and functional websites. I specialize in front-end development, but I also have experience with back-end technologies. My goal is to build user-friendly and accessible web applications that provide a great user experience.
+                </p>
+                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary">Contact</button>
+
+             </div>
+             <img class="banner-profile-picture" src="images/hardy.png" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="about  secondary-bg">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">
+                I am a web developer with over 5 years of experience in building responsive and user-friendly websites. I have a strong background in HTML, CSS, and JavaScript, and I am always eager to learn new technologies. My passion for web development drives me to create innovative solutions that meet the needs of my clients.
+            </p>
+            <div class="about-items">
+                <div class="about-item">
+                    <p class="item-title">Name</p>
+                    <p class="item-description">Mary Hardy</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">e-mail</p>
+                    <p class="item-description">abc@def.com</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Date of Birth</p>
+                    <p class="item-description">Dec 16 1971</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">From</p>
+                    <p class="item-description">Dhaka, BD</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <h3 class="section-title text-center">What I Do</h3>
+            <p class="section-descripotion text-center">
+                I specialize in front-end development, creating responsive and user-friendly interfaces. I also have experience with back-end technologies, allowing me to build full-stack applications. My skills include HTML, CSS, JavaScript, React, and Node.js. I am passionate about web accessibility and strive to create inclusive web experiences for all users.
+            </p>
+            <div class="skill-container">
+                <div class="skill">
+                    <img src="images/icons/js.png" alt="">
+                    <h4 class="skill-title">Vanilla JavaScript</h4>
+                    <p class="skill-description">List skill/technologies here.
+                        I have extensive experience in JavaScript, building interactive and dynamic web applications. I am proficient in ES6+ features and understand asynchronous programming concepts.
+                    </p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/react.png" alt="">
+                    <h4 class="skill-title">React</h4>
+                    <p class="skill-description">List all
+                        I have a strong understanding of React and its ecosystem, including state management with Redux and context API. I enjoy building reusable components and optimizing performance.
+                    </p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h4 class="skill-title">nodejs</h4>
+                    <p class="skill-description">
+                        I have experience with Node.js for building server-side applications. I am familiar with Express.js and have worked with RESTful APIs and GraphQL.
+                    </p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h4 class="skill-title">MongoDB</h4>
+                    <p class="skill-description">
+                        I have worked with MongoDB for database management in web applications. I understand data modeling and have experience with Mongoose for schema validation.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="resume">
+            <h3 class="section-title text-center">A Summary Of My Resume</h3>
+            <div class="resume-container">
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Education</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">Mastering in computer engineering</h4>
+                        <h5 class="experience-sub-title">Harvard University</h5>
+                        <div class="experience-description">
+                            <p>Graduated in 2015 with a focus on software development and web technologies. My thesis was on the impact of responsive design on user experience.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Mastering in computer engineering</h4>
+                        <h5 class="experience-sub-title">Harvard University</h5>
+                        <div class="experience-description">
+                            <p>Graduated in 2015 with a focus on software development and web technologies. My thesis was on the impact of responsive design on user experience.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Mastering in computer engineering</h4>
+                        <h5 class="experience-sub-title">Harvard University</h5>
+                        <div class="experience-description">
+                            <p>Graduated in 2015 with a focus on software development and web technologies. My thesis was on the impact of responsive design on user experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My experience</h3>
+                    <div class="experience">
+                        <h4 class="experience-title"></h4>
+                        <h5 class="experience-sub-title"></h5>
+                        <experience-description></experience-description>
+                    </div>
+                    <div class="experience">
+                        <h4 class="experience-title">Mastering in computer engineering</h4>
+                        <h5 class="experience-sub-title">Harvard University</h5>
+                        <div class="experience-description">
+                            <p>Graduated in 2015 with a focus on software development and web technologies. My thesis was on the impact of responsive design on user experience.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Mastering in computer engineering</h4>
+                        <h5 class="experience-sub-title">Harvard University</h5>
+                        <div class="experience-description">
+                            <p>Graduated in 2015 with a focus on software development and web technologies. My thesis was on the impact of responsive design on user experience.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Mastering in computer engineering</h4>
+                        <h5 class="experience-sub-title">Harvard University</h5>
+                        <div class="experience-description">
+                            <p>Graduated in 2015 with a focus on software development and web technologies. My thesis was on the impact of responsive design on user experience.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="text-center resume-download-cv">
+            <button class="btn-primary">Download CV</button>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="secondary-bg">
+         <div class="footer-column">
+            <h class="section-title">Let's Connect</h>
+            <p>
+                I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out to me through any of the platforms below.
+                <div>
+                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                    <a href=""><img src="images/icons/insta.png" alt=""></a>
+                    <a href=""><img src="images/icons/twitter.png" alt=""></a>
+                </div>
+            </p>
+
+         </div>
+         <div class="footer-column">
+            <h3 class="section-title">Let's message me</h3>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Your Name">
+                <input type="email" name="" id=""placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="20" placeholder="Your message"></textarea>
+                <input class="btn-primary "type="submit" value="Submit">
+            </form>
+         </div>
+    </footer>
     
 </body>
 </html>
